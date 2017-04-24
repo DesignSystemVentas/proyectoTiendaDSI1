@@ -3,13 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/media/sigfrid/1A73-78F6/tienda%20ABC/src/modelo/Venta.java</file>
-            <file>file:/media/sigfrid/1A73-78F6/tienda%20ABC/src/controlador/ControladorProveedor.java</file>
-            <file>file:/media/sigfrid/1A73-78F6/tienda%20ABC/src/controlador/ControladorCompra.java</file>
-            <file>file:/media/sigfrid/1A73-78F6/tienda%20ABC/src/modelo/Compra.java</file>
-            <file>file:/media/sigfrid/1A73-78F6/tienda%20ABC/src/controlador/ControladorVenta.java</file>
-            <file>file:/media/sigfrid/1A73-78F6/tienda%20ABC/src/modelo/Producto.java</file>
-            <file>file:/media/sigfrid/1A73-78F6/tienda%20ABC/src/controlador/ControladorProducto.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/controlador/Conexion.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/controlador/ErrorTienda.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/sql/cnMYSQL.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/modelo/Producto.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/controlador/ControladorCompra.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/controlador/ControladorProducto.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/controlador/ControladorVenta.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/modelo/DetalleVenta.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/controlador/ControladorProveedor.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/modelo/Venta.java</file>
+            <file>file:/F:/design/proyectoTiendaDSI1/src/controlador/FormatoDecimal.java</file>
         </group>
     </open-files>
 </project-private>

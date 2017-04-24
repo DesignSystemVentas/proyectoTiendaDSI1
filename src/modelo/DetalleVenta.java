@@ -11,7 +11,7 @@ public class DetalleVenta {
 
     private int Cantidad;
     private double PrecioUnitario;
-    private Producto Producto;
+    private Producto PRODUCTO;
 
     //CONTROLADORES
     public int getCantidad() {
@@ -32,11 +32,11 @@ public class DetalleVenta {
     }
 
     public Producto getProducto() {
-        return Producto;
+        return PRODUCTO;
     }
 
     public void setProducto(Producto Producto) {
-        this.Producto = Producto;
+        this.PRODUCTO = Producto;
     }
 
   
@@ -50,7 +50,7 @@ public class DetalleVenta {
     public DetalleVenta(int Cantidad, double PrecioUnitario, Producto Producto) {
         this.Cantidad = Cantidad;
         this.PrecioUnitario = PrecioUnitario;
-        this.Producto = Producto;
+        this.PRODUCTO = Producto;
     }
 
     public void New(String CodBarra, int Cantidad) {
@@ -66,7 +66,7 @@ public class DetalleVenta {
         try {
 //            Conexion cn = new Conexion();
             df.setRoundingMode(RoundingMode.CEILING);
-            return Double.parseDouble(df.format(Producto.getCosto() / (1 - (Double.parseDouble(pa.obtenerUtilidad().getValor()) / 100))));
+            return Double.parseDouble(df.format(PRODUCTO.getCosto() / (1 - (Double.parseDouble(pa.obtenerUtilidad().getValor()) / 100))));
 
         } catch (ArithmeticException ex) {
             throw new ErrorTienda("Error de Calculo" + ex.getMessage());
